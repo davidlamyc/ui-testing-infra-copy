@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Home page",
+    "children" : [ {
+      "name" : "Login page interactions",
+      "uid" : "f2042c460d4c7427",
+      "parentUid" : "b98fe6c318e17fb112606f80a487ab1e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592106612683,
+        "stop" : 1592106621885,
+        "duration" : 9202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "b98fe6c318e17fb112606f80a487ab1e"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+    "seleniumStandalone": true,
+    "maxInstances": "1",
+    "logLevel": "trace",
+    "baseUrl": "https://the-internet.herokuapp.com",
+    "capabilities": [
+      {
+        "browserName": "firefox",
+        "maxInstances": 1
+      }
+    ],
+    "browserTimeouts": 5000,
+    "specs": [
+      "./test/specs/**/*.feature"
+    ],
+    "stepDefinitions": [
+      "./test/step_definitions/**/*.js"
+    ],
+    "pages": "./test/pages"
+}

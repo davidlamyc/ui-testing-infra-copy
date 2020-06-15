@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "[object Object]",
+      "children" : [ {
+        "name" : "Login page interactions",
+        "uid" : "f2042c460d4c7427",
+        "parentUid" : "9bec761e7424c890f64ffc616126bb85",
+        "status" : "broken",
+        "time" : {
+          "start" : 1592106612683,
+          "stop" : 1592106621885,
+          "duration" : 9202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "9bec761e7424c890f64ffc616126bb85"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

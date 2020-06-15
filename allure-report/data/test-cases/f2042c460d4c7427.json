@@ -1,0 +1,182 @@
+{
+  "uid" : "f2042c460d4c7427",
+  "name" : "Login page interactions",
+  "fullName" : "Home page.Login page interactions",
+  "historyId" : "a7a2d6e4e26e77e4ee48d3dd89407215",
+  "time" : {
+    "start" : 1592106612683,
+    "stop" : 1592106621885,
+    "duration" : 9202
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "[object Object]",
+  "statusTrace" : "Error: [object Object]\n                    at filter (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/utils/httpRequest.js:44:19)\n                    at Array.filter (<anonymous>)\n                    at Function.compareAjaxRequests (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/utils/httpRequest.js:35:29)\n                    at World._default (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/interaction/compareRequest.js:13:41)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "[object Object]",
+    "statusTrace" : "Error: [object Object]\n                    at filter (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/utils/httpRequest.js:44:19)\n                    at Array.filter (<anonymous>)\n                    at Function.compareAjaxRequests (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/utils/httpRequest.js:35:29)\n                    at World._default (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/interaction/compareRequest.js:13:41)",
+    "steps" : [ {
+      "name" : "Given I have a screen that is 1600 by 1200 pixels",
+      "time" : {
+        "start" : 1592106612686,
+        "stop" : 1592106612800,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given I open the url \"/car-insurance\"",
+      "time" : {
+        "start" : 1592106612800,
+        "stop" : 1592106615741,
+        "duration" : 2941
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"axa\" page",
+      "time" : {
+        "start" : 1592106615741,
+        "stop" : 1592106615747,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I pause for 3000ms",
+      "time" : {
+        "start" : 1592106615747,
+        "stop" : 1592106618755,
+        "duration" : 3008
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I capture requests",
+      "time" : {
+        "start" : 1592106618755,
+        "stop" : 1592106618784,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I click on the element \"get a quote button\"",
+      "time" : {
+        "start" : 1592106618784,
+        "stop" : 1592106618859,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I expect request with \"POST\" method and url \"/axaweb/api/get-quote-price/Motor\" to be in \"post-axaweb-api-get-quote-price-Motor\"",
+      "time" : {
+        "start" : 1592106618859,
+        "stop" : 1592106621885,
+        "duration" : 3026
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: [object Object]\n                    at filter (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/utils/httpRequest.js:44:19)\n                    at Array.filter (<anonymous>)\n                    at Function.compareAjaxRequests (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/utils/httpRequest.js:35:29)\n                    at World._default (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/interaction/compareRequest.js:13:41)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home page"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login page interactions"
+  }, {
+    "name" : "package",
+    "value" : "Home page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f2042c460d4c7427.json",
+  "parameterValues" : [ "chrome" ]
+}

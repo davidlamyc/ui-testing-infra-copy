@@ -1,0 +1,24 @@
+{
+  "seleniumStandalone": true,
+  "maxInstances": "1",
+  "logLevel": "debug",
+  "baseUrl": "https://the-internet.herokuapp.com",
+  "capabilities": [
+    {
+      "maxInstances": 5, 
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+        "args": []
+      }
+    }
+  ],
+  "browserTimeouts": 5000,
+  "specs": [
+    "./test/specs/theInternet/**/*.feature"
+  ],
+  "stepDefinitions": [
+    "./test/step_definitions/**/*.js"
+  ],
+  "pages": "./test/pages",
+  "httpRequests": "./test/httpRequests"
+}

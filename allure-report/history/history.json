@@ -1,0 +1,22 @@
+{
+  "a7a2d6e4e26e77e4ee48d3dd89407215" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2042c460d4c7427",
+      "status" : "broken",
+      "statusDetails" : "[object Object]",
+      "time" : {
+        "start" : 1592106612683,
+        "stop" : 1592106621885,
+        "duration" : 9202
+      }
+    } ]
+  }
+}

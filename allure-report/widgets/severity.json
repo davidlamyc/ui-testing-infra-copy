@@ -1,0 +1,11 @@
+[ {
+  "uid" : "f2042c460d4c7427",
+  "name" : "Login page interactions",
+  "time" : {
+    "start" : 1592106612683,
+    "stop" : 1592106621885,
+    "duration" : 9202
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

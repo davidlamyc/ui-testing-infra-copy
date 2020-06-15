@@ -1,0 +1,6 @@
+node_modules
+test/reports
+build
+.vscode
+test/wdio.conf.js
+.DS_Store
