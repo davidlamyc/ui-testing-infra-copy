@@ -1,11 +1,235 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
+    "name" : "0-5",
+    "children" : [ {
+      "name" : "Scroll to correct element",
+      "uid" : "25337cd21adff652",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592108010135,
+        "stop" : 1592108010509,
+        "duration" : 374
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Alert interactions",
+      "uid" : "dfd0c288d8c1e155",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592129007476,
+        "stop" : 1592129011385,
+        "duration" : 3909
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Alert interactions",
+      "uid" : "3f92aa6567cee99b",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184770687,
+        "stop" : 1592184776515,
+        "duration" : 5828
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Scroll to correct element",
+      "uid" : "6d27d33182f98a7e",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592124082131,
+        "stop" : 1592124082594,
+        "duration" : 463
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Scroll to correct element",
+      "uid" : "b8ea46b863616343",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125068451,
+        "stop" : 1592125069144,
+        "duration" : 693
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Page title has correct copy",
+      "uid" : "38c1e1b82f7fe173",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125065379,
+        "stop" : 1592125068450,
+        "duration" : 3071
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Alert interactions",
+      "uid" : "50261524113c7253",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127161283,
+        "stop" : 1592127164429,
+        "duration" : 3146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Page title has correct copy",
+      "uid" : "da7cccf92ace3980",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592108005569,
+        "stop" : 1592108010135,
+        "duration" : 4566
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Scroll to correct element",
+      "uid" : "3236b5c8dffbc99e",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123570999,
+        "stop" : 1592123571344,
+        "duration" : 345
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Page title has correct copy",
+      "uid" : "d95edfbb725158ff",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123566933,
+        "stop" : 1592123570999,
+        "duration" : 4066
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Page title has correct copy",
+      "uid" : "a48f95abe1d6909f",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592124076951,
+        "stop" : 1592124082131,
+        "duration" : 5180
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Alert interactions",
+      "uid" : "98c5e1a39d21a59",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128215071,
+        "stop" : 1592128218881,
+        "duration" : 3810
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Alert interactions",
+      "uid" : "809b121cae61f1d1",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184348080,
+        "stop" : 1592184354179,
+        "duration" : 6099
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Alert interactions",
+      "uid" : "149ccf06297be387",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125275028,
+        "stop" : 1592125278811,
+        "duration" : 3783
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "6ea253441b78cd38797e932a74777a9c"
+  }, {
     "name" : "0-0",
     "children" : [ {
       "name" : "Login page interactions",
-      "uid" : "f2042c460d4c7427",
+      "uid" : "99ac73465ac1af2c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592129092700,
+        "stop" : 1592129101065,
+        "duration" : 8365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown options are correctly enabled or disabled",
+      "uid" : "9c2d28a895baffba",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592124880627,
+        "stop" : 1592124895122,
+        "duration" : 14495
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "1db1c83d6c4a2033",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592106691971,
+        "stop" : 1592106698983,
+        "duration" : 7012
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "cfcf3ae7bdd4d1a3",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
@@ -16,7 +240,1618 @@
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "89d35c58b34acfe9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592121412770,
+        "stop" : 1592121417586,
+        "duration" : 4816
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "b362c5b4b19b755d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592126952140,
+        "stop" : 1592126956450,
+        "duration" : 4310
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "64fe2ad27ad8a5cd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127098971,
+        "stop" : 1592127102807,
+        "duration" : 3836
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "2bf10e82ad1f0622",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592107331308,
+        "stop" : 1592107338662,
+        "duration" : 7354
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "c546770ec4721d2c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592106808260,
+        "stop" : 1592106817267,
+        "duration" : 9007
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "744f9aec077210b0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184373600,
+        "stop" : 1592184377304,
+        "duration" : 3704
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "d2d2f3054c5ea1bc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128963587,
+        "stop" : 1592128967752,
+        "duration" : 4165
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "943b63a237918530",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592126835426,
+        "stop" : 1592126841623,
+        "duration" : 6197
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "f37026da4855c01d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592107260990,
+        "stop" : 1592107267981,
+        "duration" : 6991
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "5481d9b3d2e410b9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123508668,
+        "stop" : 1592123513693,
+        "duration" : 5025
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "5c1ad6070fbb06c5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127112512,
+        "stop" : 1592127117978,
+        "duration" : 5466
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "1351c567c6febac8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592123374252,
+        "stop" : 1592123379604,
+        "duration" : 5352
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "5e758b0ceba5c3ac",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128706244,
+        "stop" : 1592128711259,
+        "duration" : 5015
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "87bca7d1ff3aaa5e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592121247622,
+        "stop" : 1592121251130,
+        "duration" : 3508
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "726e242052ab0bb9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592107937144,
+        "stop" : 1592107942549,
+        "duration" : 5405
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "cac8ce849ca4347c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123989854,
+        "stop" : 1592123995489,
+        "duration" : 5635
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "9173022a41f5d3cc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592126221219,
+        "stop" : 1592126228521,
+        "duration" : 7302
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "66732650835df4fa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125004588,
+        "stop" : 1592125013634,
+        "duration" : 9046
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "4cd241b394630c7a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592107587357,
+        "stop" : 1592107594588,
+        "duration" : 7231
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "30e96a5ffc13f45e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592106988024,
+        "stop" : 1592106997918,
+        "duration" : 9894
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "1537b14dc4f648ac",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592125419722,
+        "stop" : 1592125429010,
+        "duration" : 9288
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "3399a3bb86d6e7f6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128636546,
+        "stop" : 1592128644492,
+        "duration" : 7946
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "6389a8c704891844",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592126264743,
+        "stop" : 1592126272660,
+        "duration" : 7917
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "d681b3b4141214c9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592126721526,
+        "stop" : 1592126725519,
+        "duration" : 3993
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "4f59877911241a66",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592126814286,
+        "stop" : 1592126817733,
+        "duration" : 3447
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "f761267e56b6f5d4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125213995,
+        "stop" : 1592125218770,
+        "duration" : 4775
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "d61105a73719403d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592107293036,
+        "stop" : 1592107302306,
+        "duration" : 9270
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "365c21408e254a95",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125446771,
+        "stop" : 1592125454393,
+        "duration" : 7622
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown option is correctly selected",
+      "uid" : "6ee9376f8512315b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592124987912,
+        "stop" : 1592124988554,
+        "duration" : 642
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "2360c162bd0b004",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128104585,
+        "stop" : 1592128108176,
+        "duration" : 3591
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "4daecdad0482b468",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592128490421,
+        "stop" : 1592128500282,
+        "duration" : 9861
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "834cb105b15dbc60",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184304066,
+        "stop" : 1592184309835,
+        "duration" : 5769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown option is correctly selected",
+      "uid" : "1a2871dc6f479952",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128866859,
+        "stop" : 1592128867489,
+        "duration" : 630
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown options are correctly enabled or disabled",
+      "uid" : "989543d86bcd5559",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128863596,
+        "stop" : 1592128866858,
+        "duration" : 3262
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "15410a87355c91b4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184724664,
+        "stop" : 1592184728225,
+        "duration" : 3561
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "a55fa5cfc8d581bf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128694520,
+        "stop" : 1592128701000,
+        "duration" : 6480
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "b922220aa07b1692",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128153335,
+        "stop" : 1592128158157,
+        "duration" : 4822
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "d8fd0bbd0e6bdbb3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128166101,
+        "stop" : 1592128171557,
+        "duration" : 5456
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "a3bf4ec4392445f6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127817656,
+        "stop" : 1592127822117,
+        "duration" : 4461
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown option is correctly selected",
+      "uid" : "f0cd71b412e828b1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592124895126,
+        "stop" : 1592124895970,
+        "duration" : 844
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "73e6485fabdf891a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125407265,
+        "stop" : 1592125411026,
+        "duration" : 3761
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown options are correctly enabled or disabled",
+      "uid" : "d61c8add47c270df",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592124983985,
+        "stop" : 1592124987912,
+        "duration" : 3927
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Check element properties",
+      "uid" : "920fe95d8f1171e0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123394455,
+        "stop" : 1592123398670,
+        "duration" : 4215
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  } ]
+  }, {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "Checkboxes are correctly selected after clicking on them",
+      "uid" : "4e2c5ddf9fcbaa5d",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123546843,
+        "stop" : 1592123547342,
+        "duration" : 499
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected after clicking on them",
+      "uid" : "8d6d067e732289f3",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592124050929,
+        "stop" : 1592124051802,
+        "duration" : 873
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown options are correctly enabled or disabled",
+      "uid" : "11b0c840e50ff623",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128989940,
+        "stop" : 1592128993307,
+        "duration" : 3367
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown option is correctly selected",
+      "uid" : "992594624acacaf0",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128993308,
+        "stop" : 1592128993971,
+        "duration" : 663
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown options are correctly enabled or disabled",
+      "uid" : "39608e65e5f4899b",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128194420,
+        "stop" : 1592128198767,
+        "duration" : 4347
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown options are correctly enabled or disabled",
+      "uid" : "931c658ac1affe8d",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184750563,
+        "stop" : 1592184756646,
+        "duration" : 6083
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown options are correctly enabled or disabled",
+      "uid" : "dea41dc650eb2393",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127142976,
+        "stop" : 1592127146812,
+        "duration" : 3836
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected",
+      "uid" : "4fb39cd553515326",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592107970536,
+        "stop" : 1592107977700,
+        "duration" : 7164
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected",
+      "uid" : "610bb5f2cfcf7990",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123541840,
+        "stop" : 1592123546843,
+        "duration" : 5003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown option is correctly selected",
+      "uid" : "f7e01fdaee736532",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184334349,
+        "stop" : 1592184334719,
+        "duration" : 370
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown option is correctly selected",
+      "uid" : "819baf890a68d213",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184756647,
+        "stop" : 1592184757041,
+        "duration" : 394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown options are correctly enabled or disabled",
+      "uid" : "7b0df6334b9572ee",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184330824,
+        "stop" : 1592184334348,
+        "duration" : 3524
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown option is correctly selected",
+      "uid" : "4d787f0ab3b71544",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128198768,
+        "stop" : 1592128199398,
+        "duration" : 630
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown option is correctly selected",
+      "uid" : "b2b2011075c54991",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127146812,
+        "stop" : 1592127147463,
+        "duration" : 651
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected after clicking on them",
+      "uid" : "55e7c18b0a929bc9",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125049927,
+        "stop" : 1592125050404,
+        "duration" : 477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected after clicking on them",
+      "uid" : "2564482f8c909b1f",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592107977701,
+        "stop" : 1592107978319,
+        "duration" : 618
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected",
+      "uid" : "a529d214a58b29ec",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592124043080,
+        "stop" : 1592124050929,
+        "duration" : 7849
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown options are correctly enabled or disabled",
+      "uid" : "2581332c0d48943a",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125256821,
+        "stop" : 1592125260081,
+        "duration" : 3260
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected",
+      "uid" : "298af0635c926656",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125046057,
+        "stop" : 1592125049926,
+        "duration" : 3869
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown option is correctly selected",
+      "uid" : "b2e0c9faa91ac39b",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125260082,
+        "stop" : 1592125260743,
+        "duration" : 661
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "b755a79e149728f67460aea38b0710e0"
+  }, {
+    "name" : "0-4",
+    "children" : [ {
+      "name" : "Dropdown option is correctly selected",
+      "uid" : "696277070f1c8891",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592124071435,
+        "stop" : 1592124071903,
+        "duration" : 468
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Scroll to correct element",
+      "uid" : "d40efa4316c3b1c6",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592129002230,
+        "stop" : 1592129002609,
+        "duration" : 379
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown option is correctly selected",
+      "uid" : "7e818a422b9f89b",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125059865,
+        "stop" : 1592125060513,
+        "duration" : 648
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Page title has correct copy",
+      "uid" : "c87effba216a8cab",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184761414,
+        "stop" : 1592184765952,
+        "duration" : 4538
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Scroll to correct element",
+      "uid" : "85291c0e7d08c9fd",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128209745,
+        "stop" : 1592128210096,
+        "duration" : 351
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown options are correctly enabled or disabled",
+      "uid" : "406acf9db29eae6",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592107983255,
+        "stop" : 1592107999961,
+        "duration" : 16706
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Page title has correct copy",
+      "uid" : "e12e17183af5e95b",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128998892,
+        "stop" : 1592129002230,
+        "duration" : 3338
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Page title has correct copy",
+      "uid" : "f49a0eccbb3e860c",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125265577,
+        "stop" : 1592125269828,
+        "duration" : 4251
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown options are correctly enabled or disabled",
+      "uid" : "5f55773615927f9f",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125055288,
+        "stop" : 1592125059864,
+        "duration" : 4576
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Scroll to correct element",
+      "uid" : "d687b5212d9765f6",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127155881,
+        "stop" : 1592127156305,
+        "duration" : 424
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Scroll to correct element",
+      "uid" : "ad028a1539d3e454",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125269829,
+        "stop" : 1592125270187,
+        "duration" : 358
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown option is correctly selected",
+      "uid" : "e5ae474ef8d367ae",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123561609,
+        "stop" : 1592123562038,
+        "duration" : 429
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown options are correctly enabled or disabled",
+      "uid" : "db1fc15c471a049f",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592124056722,
+        "stop" : 1592124071432,
+        "duration" : 14710
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Page title has correct copy",
+      "uid" : "7270d6bc21a80e96",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128204325,
+        "stop" : 1592128209744,
+        "duration" : 5419
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown options are correctly enabled or disabled",
+      "uid" : "1b608ad5a063d5bd",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592123552230,
+        "stop" : 1592123561605,
+        "duration" : 9375
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Scroll to correct element",
+      "uid" : "f58801cbfdbda54a",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184343293,
+        "stop" : 1592184343727,
+        "duration" : 434
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Scroll to correct element",
+      "uid" : "df2a24598e9f5ed7",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184765952,
+        "stop" : 1592184766336,
+        "duration" : 384
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Page title has correct copy",
+      "uid" : "4b57183e4e4da670",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184339073,
+        "stop" : 1592184343292,
+        "duration" : 4219
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Page title has correct copy",
+      "uid" : "d483870eefc462fa",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127152477,
+        "stop" : 1592127155880,
+        "duration" : 3403
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown option is correctly selected",
+      "uid" : "9110d1ab01bfe36",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592107999965,
+        "stop" : 1592108000644,
+        "duration" : 679
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
+  }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "Login page interactions",
+      "uid" : "1db5dfc14dbc534f",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592125031584,
+        "stop" : 1592125041136,
+        "duration" : 9552
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected",
+      "uid" : "d6cff181948f7bce",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128981236,
+        "stop" : 1592128984550,
+        "duration" : 3314
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "da9d6e859d9f52f7",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592123527638,
+        "stop" : 1592123536971,
+        "duration" : 9333
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected after clicking on them",
+      "uid" : "7a1910702f4913b3",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128984551,
+        "stop" : 1592128985009,
+        "duration" : 458
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected",
+      "uid" : "af6f60ddfbfb459",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184322425,
+        "stop" : 1592184325932,
+        "duration" : 3507
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected after clicking on them",
+      "uid" : "48a089f2ba641206",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128188966,
+        "stop" : 1592128189423,
+        "duration" : 457
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected after clicking on them",
+      "uid" : "5135e41337bbb883",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184325932,
+        "stop" : 1592184326456,
+        "duration" : 524
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected",
+      "uid" : "3ea2b11d8a63c559",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125232373,
+        "stop" : 1592125241199,
+        "duration" : 8826
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected",
+      "uid" : "5a4a353d9cfa9a70",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184741123,
+        "stop" : 1592184745673,
+        "duration" : 4550
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected after clicking on them",
+      "uid" : "81e5489a6569be69",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184745674,
+        "stop" : 1592184746197,
+        "duration" : 523
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected after clicking on them",
+      "uid" : "9288d0148ac9cfe1",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125241201,
+        "stop" : 1592125251969,
+        "duration" : 10768
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected",
+      "uid" : "f4924b907a9c3dfd",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127132767,
+        "stop" : 1592127137531,
+        "duration" : 4764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected after clicking on them",
+      "uid" : "f880631e911233f6",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127137532,
+        "stop" : 1592127138008,
+        "duration" : 476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected",
+      "uid" : "d013101c7bae9523",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128185150,
+        "stop" : 1592128188965,
+        "duration" : 3815
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "70544b5a9c874410",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592124028792,
+        "stop" : 1592124038203,
+        "duration" : 9411
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "ba29a8e56c5ca34c",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592107956153,
+        "stop" : 1592107965577,
+        "duration" : 9424
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Add and remove buttons",
+      "uid" : "4d61e6f332ab9f7c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128972728,
+        "stop" : 1592128976250,
+        "duration" : 3522
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Add and remove buttons",
+      "uid" : "27d4ec087f7643f2",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592107947493,
+        "stop" : 1592107951235,
+        "duration" : 3742
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Add and remove buttons",
+      "uid" : "4d85395c7699d16e",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123518585,
+        "stop" : 1592123522761,
+        "duration" : 4176
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Add and remove buttons",
+      "uid" : "d9725a6e36938669",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128176508,
+        "stop" : 1592128180217,
+        "duration" : 3709
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Add and remove buttons",
+      "uid" : "6bc6ed0f5d8d79b5",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125018710,
+        "stop" : 1592125026688,
+        "duration" : 7978
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Add and remove buttons",
+      "uid" : "4fcfeeec353e5b3a",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127122967,
+        "stop" : 1592127127812,
+        "duration" : 4845
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Add and remove buttons",
+      "uid" : "4d6442e85def6598",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184314281,
+        "stop" : 1592184318055,
+        "duration" : 3774
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Add and remove buttons",
+      "uid" : "1c90d88593e9f20a",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125223858,
+        "stop" : 1592125227423,
+        "duration" : 3565
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Add and remove buttons",
+      "uid" : "9b57282b229db309",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184732678,
+        "stop" : 1592184736732,
+        "duration" : 4054
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Add and remove buttons",
+      "uid" : "18bcf1e07f4b76ed",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592124000432,
+        "stop" : 1592124023845,
+        "duration" : 23413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "0-6",
+    "children" : [ {
+      "name" : "Login page interactions",
+      "uid" : "7456cfeaacf0b42a",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592125283678,
+        "stop" : 1592125292480,
+        "duration" : 8802
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "a7e731fc72edf153",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184780885,
+        "stop" : 1592184788958,
+        "duration" : 8073
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "82432d7410617e18",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592129016300,
+        "stop" : 1592129021123,
+        "duration" : 4823
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Alert interactions",
+      "uid" : "2ea48a7983e93bc0",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125074022,
+        "stop" : 1592125078024,
+        "duration" : 4002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "97e49030a855fd0",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592128223831,
+        "stop" : 1592128233490,
+        "duration" : 9659
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Alert interactions",
+      "uid" : "de827bfa2f4d3439",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592124087620,
+        "stop" : 1592124094936,
+        "duration" : 7316
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Alert interactions",
+      "uid" : "415689035f30439e",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592108015425,
+        "stop" : 1592108023553,
+        "duration" : 8128
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "57a5885bdf9510fb",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592127169418,
+        "stop" : 1592127178431,
+        "duration" : 9013
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Alert interactions",
+      "uid" : "533d0e28521d13af",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123576231,
+        "stop" : 1592123580670,
+        "duration" : 4439
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "6d5170ae525a2fb0dfa4066ed7bef924"
+  }, {
+    "name" : "0-7",
+    "children" : [ {
+      "name" : "Login page interactions",
+      "uid" : "2362bc3a279b3753",
+      "parentUid" : "21aceb05e3618121b78af6a48c646d54",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592124099819,
+        "stop" : 1592124111571,
+        "duration" : 11752
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "fb149009c463d582",
+      "parentUid" : "21aceb05e3618121b78af6a48c646d54",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592108028463,
+        "stop" : 1592108033206,
+        "duration" : 4743
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "8db5ffeb8cd3e5a6",
+      "parentUid" : "21aceb05e3618121b78af6a48c646d54",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592125082956,
+        "stop" : 1592125092369,
+        "duration" : 9413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login page interactions",
+      "uid" : "82005264f7a9f12f",
+      "parentUid" : "21aceb05e3618121b78af6a48c646d54",
+      "status" : "broken",
+      "time" : {
+        "start" : 1592123585529,
+        "stop" : 1592123592023,
+        "duration" : 6494
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "21aceb05e3618121b78af6a48c646d54"
+  } ],
+  "name" : "timeline"
 }

@@ -1,0 +1,312 @@
+{
+  "uid" : "99ac73465ac1af2c",
+  "name" : "Login page interactions",
+  "fullName" : "Home page.Login page interactions",
+  "historyId" : "a7a2d6e4e26e77e4ee48d3dd89407215",
+  "time" : {
+    "start" : 1592129092700,
+    "stop" : 1592129101065,
+    "duration" : 8365
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I have a screen that is 1600 by 1200 pixels",
+      "time" : {
+        "start" : 1592129092702,
+        "stop" : 1592129092821,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I open the url \"/car-insurance\"",
+      "time" : {
+        "start" : 1592129092822,
+        "stop" : 1592129094927,
+        "duration" : 2105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"axa\" page",
+      "time" : {
+        "start" : 1592129094927,
+        "stop" : 1592129094949,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I pause for 3000ms",
+      "time" : {
+        "start" : 1592129094950,
+        "stop" : 1592129097957,
+        "duration" : 3007
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given I capture http requests",
+      "time" : {
+        "start" : 1592129097957,
+        "stop" : 1592129097975,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click on the element \"get a quote button\"",
+      "time" : {
+        "start" : 1592129097975,
+        "stop" : 1592129098049,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I expect a request with the \"POST\" method and the url \"/axaweb/api/get-quote-price/Motor\" to have a body of \"post-axaweb-api-get-quote-price-Motor\"",
+      "time" : {
+        "start" : 1592129098049,
+        "stop" : 1592129101064,
+        "duration" : 3015
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home page"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login page interactions"
+  }, {
+    "name" : "package",
+    "value" : "Home page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6389a8c704891844",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592126264743,
+        "stop" : 1592126272660,
+        "duration" : 7917
+      }
+    }, {
+      "uid" : "9173022a41f5d3cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592126221219,
+        "stop" : 1592126228521,
+        "duration" : 7302
+      }
+    }, {
+      "uid" : "365c21408e254a95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125446771,
+        "stop" : 1592125454393,
+        "duration" : 7622
+      }
+    }, {
+      "uid" : "1537b14dc4f648ac",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[contains(@class, \"get-a-quote\")]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1592125419722,
+        "stop" : 1592125429010,
+        "duration" : 9288
+      }
+    }, {
+      "uid" : "1db5dfc14dbc534f",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[contains(@class, \"get-a-quote\")]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1592125031584,
+        "stop" : 1592125041136,
+        "duration" : 9552
+      }
+    }, {
+      "uid" : "70544b5a9c874410",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[contains(@class, \"get-a-quote\")]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1592124028792,
+        "stop" : 1592124038203,
+        "duration" : 9411
+      }
+    }, {
+      "uid" : "da9d6e859d9f52f7",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[contains(@class, \"get-a-quote\")]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1592123527638,
+        "stop" : 1592123536971,
+        "duration" : 9333
+      }
+    }, {
+      "uid" : "ba29a8e56c5ca34c",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[contains(@class, \"get-a-quote\")]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1592107956153,
+        "stop" : 1592107965577,
+        "duration" : 9424
+      }
+    }, {
+      "uid" : "4cd241b394630c7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592107587357,
+        "stop" : 1592107594588,
+        "duration" : 7231
+      }
+    }, {
+      "uid" : "2bf10e82ad1f0622",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592107331308,
+        "stop" : 1592107338662,
+        "duration" : 7354
+      }
+    }, {
+      "uid" : "d61105a73719403d",
+      "status" : "broken",
+      "statusDetails" : "[\n                  {\n                    \"kind\": \"E\",\n                    \"path\": [\n                      \"motorYear\"\n                    ],\n                    \"lhs\": 2018,\n                    \"rhs\": 2017\n                  }\n                ]",
+      "time" : {
+        "start" : 1592107293036,
+        "stop" : 1592107302306,
+        "duration" : 9270
+      }
+    }, {
+      "uid" : "f37026da4855c01d",
+      "status" : "broken",
+      "statusDetails" : "ENOENT: no such file or directory, open '/Users/david/workspace/ui-testing-infra-copy/test/httpRequests/post-axaweb-api-get-quote-price-Motor.json'",
+      "time" : {
+        "start" : 1592107260990,
+        "stop" : 1592107267981,
+        "duration" : 6991
+      }
+    }, {
+      "uid" : "30e96a5ffc13f45e",
+      "status" : "broken",
+      "statusDetails" : "[\n                  {\n                    \"kind\": \"E\",\n                    \"path\": [\n                      \"motorYear\"\n                    ],\n                    \"lhs\": 2018,\n                    \"rhs\": 2017\n                  }\n                ]",
+      "time" : {
+        "start" : 1592106988024,
+        "stop" : 1592106997918,
+        "duration" : 9894
+      }
+    }, {
+      "uid" : "c546770ec4721d2c",
+      "status" : "broken",
+      "statusDetails" : "config is not defined",
+      "time" : {
+        "start" : 1592106808260,
+        "stop" : 1592106817267,
+        "duration" : 9007
+      }
+    }, {
+      "uid" : "1db1c83d6c4a2033",
+      "status" : "broken",
+      "statusDetails" : "[\n                  {\n                    \"kind\": \"E\",\n                    \"path\": [\n                      \"motorYear\"\n                    ],\n                    \"lhs\": 2018,\n                    \"rhs\": 2017\n                  }\n                ]",
+      "time" : {
+        "start" : 1592106691971,
+        "stop" : 1592106698983,
+        "duration" : 7012
+      }
+    }, {
+      "uid" : "cfcf3ae7bdd4d1a3",
+      "status" : "broken",
+      "statusDetails" : "[object Object]",
+      "time" : {
+        "start" : 1592106612683,
+        "stop" : 1592106621885,
+        "duration" : 9202
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "99ac73465ac1af2c.json",
+  "parameterValues" : [ "chrome" ]
+}

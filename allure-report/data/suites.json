@@ -1,22 +1,176 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
     "name" : "Home page",
     "children" : [ {
       "name" : "Login page interactions",
-      "uid" : "f2042c460d4c7427",
+      "uid" : "99ac73465ac1af2c",
       "parentUid" : "b98fe6c318e17fb112606f80a487ab1e",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1592106612683,
-        "stop" : 1592106621885,
-        "duration" : 9202
+        "start" : 1592129092700,
+        "stop" : 1592129101065,
+        "duration" : 8365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Page title has correct copy",
+      "uid" : "c87effba216a8cab",
+      "parentUid" : "b98fe6c318e17fb112606f80a487ab1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184761414,
+        "stop" : 1592184765952,
+        "duration" : 4538
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Scroll to correct element",
+      "uid" : "df2a24598e9f5ed7",
+      "parentUid" : "b98fe6c318e17fb112606f80a487ab1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184765952,
+        "stop" : 1592184766336,
+        "duration" : 384
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
     "uid" : "b98fe6c318e17fb112606f80a487ab1e"
-  } ]
+  }, {
+    "name" : "Challenging DOM page",
+    "children" : [ {
+      "name" : "Check element properties",
+      "uid" : "15410a87355c91b4",
+      "parentUid" : "27e4c45fb8f63056af4131f8cbdb3ccf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184724664,
+        "stop" : 1592184728225,
+        "duration" : 3561
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "27e4c45fb8f63056af4131f8cbdb3ccf"
+  }, {
+    "name" : "Add remove buttons page",
+    "children" : [ {
+      "name" : "Add and remove buttons",
+      "uid" : "9b57282b229db309",
+      "parentUid" : "e14a3558ddc64f9d6b675f86e1a4995a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184732678,
+        "stop" : 1592184736732,
+        "duration" : 4054
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "e14a3558ddc64f9d6b675f86e1a4995a"
+  }, {
+    "name" : "Checkbox page",
+    "children" : [ {
+      "name" : "Checkboxes are correctly selected",
+      "uid" : "5a4a353d9cfa9a70",
+      "parentUid" : "bae2a8be3a31906ddc7560697578f9eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184741123,
+        "stop" : 1592184745673,
+        "duration" : 4550
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checkboxes are correctly selected after clicking on them",
+      "uid" : "81e5489a6569be69",
+      "parentUid" : "bae2a8be3a31906ddc7560697578f9eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184745674,
+        "stop" : 1592184746197,
+        "duration" : 523
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "bae2a8be3a31906ddc7560697578f9eb"
+  }, {
+    "name" : "Dropdown page",
+    "children" : [ {
+      "name" : "Dropdown options are correctly enabled or disabled",
+      "uid" : "931c658ac1affe8d",
+      "parentUid" : "a830eadca612f40b05e3848bf3afe2db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184750563,
+        "stop" : 1592184756646,
+        "duration" : 6083
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Dropdown option is correctly selected",
+      "uid" : "819baf890a68d213",
+      "parentUid" : "a830eadca612f40b05e3848bf3afe2db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184756647,
+        "stop" : 1592184757041,
+        "duration" : 394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "a830eadca612f40b05e3848bf3afe2db"
+  }, {
+    "name" : "Javascript Alert",
+    "children" : [ {
+      "name" : "Alert interactions",
+      "uid" : "3f92aa6567cee99b",
+      "parentUid" : "d13d63b4be337030ceffb3b94a4a7e82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184770687,
+        "stop" : 1592184776515,
+        "duration" : 5828
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "d13d63b4be337030ceffb3b94a4a7e82"
+  }, {
+    "name" : "Login page",
+    "children" : [ {
+      "name" : "Login page interactions",
+      "uid" : "a7e731fc72edf153",
+      "parentUid" : "c2d57503ceff46fd1c9bad0fe50e2008",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184780885,
+        "stop" : 1592184788958,
+        "duration" : 8073
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "c2d57503ceff46fd1c9bad0fe50e2008"
+  } ],
+  "name" : "suites"
 }

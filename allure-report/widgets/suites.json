@@ -1,13 +1,79 @@
 {
-  "total" : 1,
+  "total" : 7,
   "items" : [ {
     "uid" : "b98fe6c318e17fb112606f80a487ab1e",
     "name" : "Home page",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "bae2a8be3a31906ddc7560697578f9eb",
+    "name" : "Checkbox page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "a830eadca612f40b05e3848bf3afe2db",
+    "name" : "Dropdown page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "27e4c45fb8f63056af4131f8cbdb3ccf",
+    "name" : "Challenging DOM page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e14a3558ddc64f9d6b675f86e1a4995a",
+    "name" : "Add remove buttons page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d13d63b4be337030ceffb3b94a4a7e82",
+    "name" : "Javascript Alert",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c2d57503ceff46fd1c9bad0fe50e2008",
+    "name" : "Login page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }

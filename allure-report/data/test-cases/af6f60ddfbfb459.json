@@ -1,0 +1,126 @@
+{
+  "uid" : "af6f60ddfbfb459",
+  "name" : "Checkboxes are correctly selected",
+  "fullName" : "Checkbox page.Checkboxes are correctly selected",
+  "historyId" : "270e22090e18efa19d81a21eb11a5084",
+  "time" : {
+    "start" : 1592184322425,
+    "stop" : 1592184325932,
+    "duration" : 3507
+  },
+  "description" : "  Test checkbox interactions",
+  "descriptionHtml" : "<p>Test checkbox interactions</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open the url \"/checkboxes\"",
+      "time" : {
+        "start" : 1592184322427,
+        "stop" : 1592184325885,
+        "duration" : 3458
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"checkboxes\" page",
+      "time" : {
+        "start" : 1592184325885,
+        "stop" : 1592184325891,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the element \"checkbox one\" is not selected",
+      "time" : {
+        "start" : 1592184325891,
+        "stop" : 1592184325913,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the element \"checkbox two\" is selected",
+      "time" : {
+        "start" : 1592184325913,
+        "stop" : 1592184325930,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Checkbox page"
+  }, {
+    "name" : "testClass",
+    "value" : "Checkbox page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checkboxes are correctly selected"
+  }, {
+    "name" : "package",
+    "value" : "Checkbox page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af6f60ddfbfb459.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,161 @@
+{
+  "uid" : "406acf9db29eae6",
+  "name" : "Dropdown options are correctly enabled or disabled",
+  "fullName" : "Dropdown page.Dropdown options are correctly enabled or disabled",
+  "historyId" : "c00697bd4c0e5c9f9412a662626b2cad",
+  "time" : {
+    "start" : 1592107983255,
+    "stop" : 1592107999961,
+    "duration" : 16706
+  },
+  "description" : "  Test dropdown interactions",
+  "descriptionHtml" : "<p>Test dropdown interactions</p>\n",
+  "status" : "broken",
+  "statusMessage" : "element (\"//option[text()=\"Please select an option\"]\") still not enabled after 5000ms",
+  "statusTrace" : "Error: element (\"//option[text()=\"Please select an option\"]\") still not enabled after 5000ms\n                    at World._default (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/assertion/checkElementEnabled.js:10:34)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//option[text()=\"Please select an option\"]\") still not enabled after 5000ms",
+    "statusTrace" : "Error: element (\"//option[text()=\"Please select an option\"]\") still not enabled after 5000ms\n                    at World._default (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/assertion/checkElementEnabled.js:10:34)",
+    "steps" : [ {
+      "name" : "Given I open the url \"/dropdown\"",
+      "time" : {
+        "start" : 1592107983257,
+        "stop" : 1592107994835,
+        "duration" : 11578
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"dropdown\" page",
+      "time" : {
+        "start" : 1592107994836,
+        "stop" : 1592107994842,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I click on the element \"dropdown\"",
+      "time" : {
+        "start" : 1592107994842,
+        "stop" : 1592107994938,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I check that the element \"placeholder option\" is not enabled",
+      "time" : {
+        "start" : 1592107994938,
+        "stop" : 1592107999961,
+        "duration" : 5023
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//option[text()=\"Please select an option\"]\") still not enabled after 5000ms\n                    at World._default (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/assertion/checkElementEnabled.js:10:34)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "And I check that the element \"option one\" is enabled",
+      "time" : {
+        "start" : 1592107999961,
+        "stop" : 1592107999962,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I check that the element \"option two\" is enabled",
+      "time" : {
+        "start" : 1592107999962,
+        "stop" : 1592107999963,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Dropdown page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dropdown page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Dropdown options are correctly enabled or disabled"
+  }, {
+    "name" : "package",
+    "value" : "Dropdown page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "406acf9db29eae6.json",
+  "parameterValues" : [ "chrome" ]
+}

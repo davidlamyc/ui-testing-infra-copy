@@ -1,0 +1,156 @@
+{
+  "uid" : "6bc6ed0f5d8d79b5",
+  "name" : "Add and remove buttons",
+  "fullName" : "Add remove buttons page.Add and remove buttons",
+  "historyId" : "ca1733c0384b0a2c983bfcd8c4373c24",
+  "time" : {
+    "start" : 1592125018710,
+    "stop" : 1592125026688,
+    "duration" : 7978
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open the url \"/add_remove_elements/\"",
+      "time" : {
+        "start" : 1592125018714,
+        "stop" : 1592125026494,
+        "duration" : 7780
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"add_remove_elements\" page",
+      "time" : {
+        "start" : 1592125026494,
+        "stop" : 1592125026500,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I click on the element \"add element button\"",
+      "time" : {
+        "start" : 1592125026500,
+        "stop" : 1592125026563,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I click on the element \"add element button\"",
+      "time" : {
+        "start" : 1592125026564,
+        "stop" : 1592125026620,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I click on the element \"add element button\"",
+      "time" : {
+        "start" : 1592125026621,
+        "stop" : 1592125026672,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the element \"manually added buttons\" appears exactly 3 times",
+      "time" : {
+        "start" : 1592125026672,
+        "stop" : 1592125026685,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Add remove buttons page"
+  }, {
+    "name" : "testClass",
+    "value" : "Add remove buttons page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add and remove buttons"
+  }, {
+    "name" : "package",
+    "value" : "Add remove buttons page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6bc6ed0f5d8d79b5.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -8,7 +8,7 @@
       "maxInstances": 5, 
       "browserName": "chrome",
       "goog:chromeOptions": {
-        "args": []
+        "args": ["headless", "disable-gpu"]
       }
     }
   ],

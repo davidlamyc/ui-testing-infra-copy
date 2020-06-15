@@ -1,0 +1,141 @@
+{
+  "uid" : "39608e65e5f4899b",
+  "name" : "Dropdown options are correctly enabled or disabled",
+  "fullName" : "Dropdown page.Dropdown options are correctly enabled or disabled",
+  "historyId" : "c00697bd4c0e5c9f9412a662626b2cad",
+  "time" : {
+    "start" : 1592128194420,
+    "stop" : 1592128198767,
+    "duration" : 4347
+  },
+  "description" : "  Test dropdown interactions",
+  "descriptionHtml" : "<p>Test dropdown interactions</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open the url \"/dropdown\"",
+      "time" : {
+        "start" : 1592128194423,
+        "stop" : 1592128198638,
+        "duration" : 4215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"dropdown\" page",
+      "time" : {
+        "start" : 1592128198638,
+        "stop" : 1592128198644,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I click on the element \"dropdown\"",
+      "time" : {
+        "start" : 1592128198644,
+        "stop" : 1592128198732,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I check that the element \"option one\" is enabled",
+      "time" : {
+        "start" : 1592128198732,
+        "stop" : 1592128198749,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I check that the element \"option two\" is enabled",
+      "time" : {
+        "start" : 1592128198749,
+        "stop" : 1592128198766,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Dropdown page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dropdown page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Dropdown options are correctly enabled or disabled"
+  }, {
+    "name" : "package",
+    "value" : "Dropdown page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39608e65e5f4899b.json",
+  "parameterValues" : [ "chrome" ]
+}

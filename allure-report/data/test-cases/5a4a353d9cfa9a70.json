@@ -1,0 +1,200 @@
+{
+  "uid" : "5a4a353d9cfa9a70",
+  "name" : "Checkboxes are correctly selected",
+  "fullName" : "Checkbox page.Checkboxes are correctly selected",
+  "historyId" : "270e22090e18efa19d81a21eb11a5084",
+  "time" : {
+    "start" : 1592184741123,
+    "stop" : 1592184745673,
+    "duration" : 4550
+  },
+  "description" : "  Test checkbox interactions",
+  "descriptionHtml" : "<p>Test checkbox interactions</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open the url \"/checkboxes\"",
+      "time" : {
+        "start" : 1592184741126,
+        "stop" : 1592184745625,
+        "duration" : 4499
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"checkboxes\" page",
+      "time" : {
+        "start" : 1592184745625,
+        "stop" : 1592184745632,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the element \"checkbox one\" is not selected",
+      "time" : {
+        "start" : 1592184745632,
+        "stop" : 1592184745655,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the element \"checkbox two\" is selected",
+      "time" : {
+        "start" : 1592184745655,
+        "stop" : 1592184745672,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Checkbox page"
+  }, {
+    "name" : "testClass",
+    "value" : "Checkbox page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checkboxes are correctly selected"
+  }, {
+    "name" : "package",
+    "value" : "Checkbox page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "af6f60ddfbfb459",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184322425,
+        "stop" : 1592184325932,
+        "duration" : 3507
+      }
+    }, {
+      "uid" : "d6cff181948f7bce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128981236,
+        "stop" : 1592128984550,
+        "duration" : 3314
+      }
+    }, {
+      "uid" : "d013101c7bae9523",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128185150,
+        "stop" : 1592128188965,
+        "duration" : 3815
+      }
+    }, {
+      "uid" : "f4924b907a9c3dfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127132767,
+        "stop" : 1592127137531,
+        "duration" : 4764
+      }
+    }, {
+      "uid" : "3ea2b11d8a63c559",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125232373,
+        "stop" : 1592125241199,
+        "duration" : 8826
+      }
+    }, {
+      "uid" : "298af0635c926656",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125046057,
+        "stop" : 1592125049926,
+        "duration" : 3869
+      }
+    }, {
+      "uid" : "a529d214a58b29ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592124043080,
+        "stop" : 1592124050929,
+        "duration" : 7849
+      }
+    }, {
+      "uid" : "610bb5f2cfcf7990",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123541840,
+        "stop" : 1592123546843,
+        "duration" : 5003
+      }
+    }, {
+      "uid" : "4fb39cd553515326",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592107970536,
+        "stop" : 1592107977700,
+        "duration" : 7164
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a4a353d9cfa9a70.json",
+  "parameterValues" : [ "chrome" ]
+}

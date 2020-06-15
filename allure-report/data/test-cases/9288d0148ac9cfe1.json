@@ -1,0 +1,156 @@
+{
+  "uid" : "9288d0148ac9cfe1",
+  "name" : "Checkboxes are correctly selected after clicking on them",
+  "fullName" : "Checkbox page.Checkboxes are correctly selected after clicking on them",
+  "historyId" : "a154a99049d4ea290b5d602c34d9185",
+  "time" : {
+    "start" : 1592125241201,
+    "stop" : 1592125251969,
+    "duration" : 10768
+  },
+  "description" : "  Test checkbox interactions",
+  "descriptionHtml" : "<p>Test checkbox interactions</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open the url \"/checkboxes\"",
+      "time" : {
+        "start" : 1592125241202,
+        "stop" : 1592125241529,
+        "duration" : 327
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"checkboxes\" page",
+      "time" : {
+        "start" : 1592125241529,
+        "stop" : 1592125241530,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I click on the element \"checkbox one\"",
+      "time" : {
+        "start" : 1592125241531,
+        "stop" : 1592125246652,
+        "duration" : 5121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the element \"checkbox one\" is selected",
+      "time" : {
+        "start" : 1592125246652,
+        "stop" : 1592125246667,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I click on the element \"checkbox two\"",
+      "time" : {
+        "start" : 1592125246667,
+        "stop" : 1592125251951,
+        "duration" : 5284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the element \"checkbox two\" is not selected",
+      "time" : {
+        "start" : 1592125251951,
+        "stop" : 1592125251968,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Checkbox page"
+  }, {
+    "name" : "testClass",
+    "value" : "Checkbox page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checkboxes are correctly selected after clicking on them"
+  }, {
+    "name" : "package",
+    "value" : "Checkbox page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9288d0148ac9cfe1.json",
+  "parameterValues" : [ "chrome" ]
+}

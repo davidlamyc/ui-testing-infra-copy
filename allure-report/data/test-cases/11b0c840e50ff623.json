@@ -1,0 +1,156 @@
+{
+  "uid" : "11b0c840e50ff623",
+  "name" : "Dropdown options are correctly enabled or disabled",
+  "fullName" : "Dropdown page.Dropdown options are correctly enabled or disabled",
+  "historyId" : "c00697bd4c0e5c9f9412a662626b2cad",
+  "time" : {
+    "start" : 1592128989940,
+    "stop" : 1592128993307,
+    "duration" : 3367
+  },
+  "description" : "  Test dropdown interactions",
+  "descriptionHtml" : "<p>Test dropdown interactions</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open the url \"/dropdown\"",
+      "time" : {
+        "start" : 1592128989942,
+        "stop" : 1592128993134,
+        "duration" : 3192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"dropdown\" page",
+      "time" : {
+        "start" : 1592128993134,
+        "stop" : 1592128993159,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I click on the element \"dropdown\"",
+      "time" : {
+        "start" : 1592128993159,
+        "stop" : 1592128993252,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I check that the element \"placeholder option\" is not enabled",
+      "time" : {
+        "start" : 1592128993252,
+        "stop" : 1592128993272,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I check that the element \"option one\" is enabled",
+      "time" : {
+        "start" : 1592128993272,
+        "stop" : 1592128993289,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I check that the element \"option two\" is enabled",
+      "time" : {
+        "start" : 1592128993289,
+        "stop" : 1592128993306,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Dropdown page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dropdown page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Dropdown options are correctly enabled or disabled"
+  }, {
+    "name" : "package",
+    "value" : "Dropdown page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "11b0c840e50ff623.json",
+  "parameterValues" : [ "chrome" ]
+}

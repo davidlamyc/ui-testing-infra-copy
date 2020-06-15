@@ -1,0 +1,126 @@
+{
+  "uid" : "dfd0c288d8c1e155",
+  "name" : "Alert interactions",
+  "fullName" : "Javascript Alert.Alert interactions",
+  "historyId" : "cafb777d4e0edc302238680a825ec9d2",
+  "time" : {
+    "start" : 1592129007476,
+    "stop" : 1592129011385,
+    "duration" : 3909
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open the url \"/javascript_alerts\"",
+      "time" : {
+        "start" : 1592129007479,
+        "stop" : 1592129011264,
+        "duration" : 3785
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"javascript_alerts\" page",
+      "time" : {
+        "start" : 1592129011264,
+        "stop" : 1592129011288,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I click on the element \"alert button\"",
+      "time" : {
+        "start" : 1592129011288,
+        "stop" : 1592129011370,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I accept the alert box",
+      "time" : {
+        "start" : 1592129011370,
+        "stop" : 1592129011383,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Javascript Alert"
+  }, {
+    "name" : "testClass",
+    "value" : "Javascript Alert"
+  }, {
+    "name" : "testMethod",
+    "value" : "Alert interactions"
+  }, {
+    "name" : "package",
+    "value" : "Javascript Alert"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dfd0c288d8c1e155.json",
+  "parameterValues" : [ "chrome" ]
+}

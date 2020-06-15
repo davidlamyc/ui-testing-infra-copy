@@ -1,5 +1,5 @@
 {
-  "uid" : "f2042c460d4c7427",
+  "uid" : "cfcf3ae7bdd4d1a3",
   "name" : "Login page interactions",
   "fullName" : "Home page.Login page interactions",
   "historyId" : "a7a2d6e4e26e77e4ee48d3dd89407215",
@@ -165,18 +165,12 @@
     "value" : "chrome"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
-    "categories" : [ {
-      "name" : "Test defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f2042c460d4c7427.json",
+  "source" : "cfcf3ae7bdd4d1a3.json",
   "parameterValues" : [ "chrome" ]
 }

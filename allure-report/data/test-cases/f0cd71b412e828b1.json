@@ -1,0 +1,141 @@
+{
+  "uid" : "f0cd71b412e828b1",
+  "name" : "Dropdown option is correctly selected",
+  "fullName" : "Dropdown page.Dropdown option is correctly selected",
+  "historyId" : "9eb8a83f895e072c3832bb90d71745d",
+  "time" : {
+    "start" : 1592124895126,
+    "stop" : 1592124895970,
+    "duration" : 844
+  },
+  "description" : "  Test dropdown interactions",
+  "descriptionHtml" : "<p>Test dropdown interactions</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open the url \"/dropdown\"",
+      "time" : {
+        "start" : 1592124895128,
+        "stop" : 1592124895879,
+        "duration" : 751
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"dropdown\" page",
+      "time" : {
+        "start" : 1592124895879,
+        "stop" : 1592124895881,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I select the option \"Option 2\" from the select input \"dropdown\"",
+      "time" : {
+        "start" : 1592124895881,
+        "stop" : 1592124895931,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the element \"option one\" is not selected",
+      "time" : {
+        "start" : 1592124895932,
+        "stop" : 1592124895949,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the element \"option two\" is selected",
+      "time" : {
+        "start" : 1592124895950,
+        "stop" : 1592124895969,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Dropdown page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dropdown page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Dropdown option is correctly selected"
+  }, {
+    "name" : "package",
+    "value" : "Dropdown page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0cd71b412e828b1.json",
+  "parameterValues" : [ "chrome" ]
+}

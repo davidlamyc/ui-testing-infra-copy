@@ -1,0 +1,171 @@
+{
+  "uid" : "d681b3b4141214c9",
+  "name" : "Check element properties",
+  "fullName" : "Challenging DOM page.Check element properties",
+  "historyId" : "e592178d435760aa8da17e3341359c72",
+  "time" : {
+    "start" : 1592126721526,
+    "stop" : 1592126725519,
+    "duration" : 3993
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open the url \"/abtest\"",
+      "time" : {
+        "start" : 1592126721529,
+        "stop" : 1592126725272,
+        "duration" : 3743
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"abtest\" page",
+      "time" : {
+        "start" : 1592126725272,
+        "stop" : 1592126725277,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given I have a screen that is 300 by 300 pixels",
+      "time" : {
+        "start" : 1592126725278,
+        "stop" : 1592126725393,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the attribute \"id\" from element \"content div\" is \"content\"",
+      "time" : {
+        "start" : 1592126725394,
+        "stop" : 1592126725441,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the attribute \"id\" from element \"content div\" is not \"fake text\"",
+      "time" : {
+        "start" : 1592126725441,
+        "stop" : 1592126725464,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the css attribute \"color\" from element \"content div\" is \"rgba(34,34,34,1)\"",
+      "time" : {
+        "start" : 1592126725464,
+        "stop" : 1592126725493,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the css attribute \"color\" from element \"content div\" is not \"fake text\"",
+      "time" : {
+        "start" : 1592126725493,
+        "stop" : 1592126725518,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Challenging DOM page"
+  }, {
+    "name" : "testClass",
+    "value" : "Challenging DOM page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check element properties"
+  }, {
+    "name" : "package",
+    "value" : "Challenging DOM page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d681b3b4141214c9.json",
+  "parameterValues" : [ "chrome" ]
+}

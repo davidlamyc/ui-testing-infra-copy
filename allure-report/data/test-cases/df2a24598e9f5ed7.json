@@ -1,0 +1,185 @@
+{
+  "uid" : "df2a24598e9f5ed7",
+  "name" : "Scroll to correct element",
+  "fullName" : "Home page.Scroll to correct element",
+  "historyId" : "b83eef5a4cd2f95b395ff730bee94168",
+  "time" : {
+    "start" : 1592184765952,
+    "stop" : 1592184766336,
+    "duration" : 384
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open the url \"/\"",
+      "time" : {
+        "start" : 1592184765953,
+        "stop" : 1592184766317,
+        "duration" : 364
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"home\" page",
+      "time" : {
+        "start" : 1592184766317,
+        "stop" : 1592184766319,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I scroll to the element \"WYSIWYG Editor link\"",
+      "time" : {
+        "start" : 1592184766319,
+        "stop" : 1592184766335,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Home page"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Scroll to correct element"
+  }, {
+    "name" : "package",
+    "value" : "Home page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f58801cbfdbda54a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184343293,
+        "stop" : 1592184343727,
+        "duration" : 434
+      }
+    }, {
+      "uid" : "d40efa4316c3b1c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592129002230,
+        "stop" : 1592129002609,
+        "duration" : 379
+      }
+    }, {
+      "uid" : "85291c0e7d08c9fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128209745,
+        "stop" : 1592128210096,
+        "duration" : 351
+      }
+    }, {
+      "uid" : "d687b5212d9765f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127155881,
+        "stop" : 1592127156305,
+        "duration" : 424
+      }
+    }, {
+      "uid" : "ad028a1539d3e454",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125269829,
+        "stop" : 1592125270187,
+        "duration" : 358
+      }
+    }, {
+      "uid" : "b8ea46b863616343",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125068451,
+        "stop" : 1592125069144,
+        "duration" : 693
+      }
+    }, {
+      "uid" : "6d27d33182f98a7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592124082131,
+        "stop" : 1592124082594,
+        "duration" : 463
+      }
+    }, {
+      "uid" : "3236b5c8dffbc99e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123570999,
+        "stop" : 1592123571344,
+        "duration" : 345
+      }
+    }, {
+      "uid" : "25337cd21adff652",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592108010135,
+        "stop" : 1592108010509,
+        "duration" : 374
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df2a24598e9f5ed7.json",
+  "parameterValues" : [ "chrome" ]
+}

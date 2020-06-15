@@ -1,0 +1,176 @@
+{
+  "uid" : "ba29a8e56c5ca34c",
+  "name" : "Login page interactions",
+  "fullName" : "Home page.Login page interactions",
+  "historyId" : "a7a2d6e4e26e77e4ee48d3dd89407215",
+  "time" : {
+    "start" : 1592107956153,
+    "stop" : 1592107965577,
+    "duration" : 9424
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//button[contains(@class, \"get-a-quote\")]\") still not displayed after 5000ms",
+  "statusTrace" : "Error: element (\"//button[contains(@class, \"get-a-quote\")]\") still not displayed after 5000ms\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at World._default (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/interaction/clickElement.js:9:34)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//button[contains(@class, \"get-a-quote\")]\") still not displayed after 5000ms",
+    "statusTrace" : "Error: element (\"//button[contains(@class, \"get-a-quote\")]\") still not displayed after 5000ms\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at World._default (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/interaction/clickElement.js:9:34)",
+    "steps" : [ {
+      "name" : "Given I have a screen that is 1600 by 1200 pixels",
+      "time" : {
+        "start" : 1592107956156,
+        "stop" : 1592107956274,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given I open the url \"/car-insurance\"",
+      "time" : {
+        "start" : 1592107956274,
+        "stop" : 1592107957519,
+        "duration" : 1245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"axa\" page",
+      "time" : {
+        "start" : 1592107957519,
+        "stop" : 1592107957525,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I pause for 3000ms",
+      "time" : {
+        "start" : 1592107957525,
+        "stop" : 1592107960532,
+        "duration" : 3007
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I capture http requests",
+      "time" : {
+        "start" : 1592107960532,
+        "stop" : 1592107960549,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I click on the element \"get a quote button\"",
+      "time" : {
+        "start" : 1592107960549,
+        "stop" : 1592107965577,
+        "duration" : 5028
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//button[contains(@class, \"get-a-quote\")]\") still not displayed after 5000ms\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at World._default (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/interaction/clickElement.js:9:34)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then I expect a request with the \"POST\" method and the url \"/axaweb/api/get-quote-price/Motor\" to have a body of \"post-axaweb-api-get-quote-price-Motor\"",
+      "time" : {
+        "start" : 1592107965578,
+        "stop" : 1592107965578,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Home page"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login page interactions"
+  }, {
+    "name" : "package",
+    "value" : "Home page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba29a8e56c5ca34c.json",
+  "parameterValues" : [ "chrome" ]
+}

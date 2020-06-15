@@ -1,0 +1,307 @@
+{
+  "uid" : "a7e731fc72edf153",
+  "name" : "Login page interactions",
+  "fullName" : "Login page.Login page interactions",
+  "historyId" : "cab8313ce78e7186720ff3efaff74fc2",
+  "time" : {
+    "start" : 1592184780885,
+    "stop" : 1592184788958,
+    "duration" : 8073
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open the url \"/login\"",
+      "time" : {
+        "start" : 1592184780888,
+        "stop" : 1592184788011,
+        "duration" : 7123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"login\" page",
+      "time" : {
+        "start" : 1592184788012,
+        "stop" : 1592184788019,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I do not see the element \"error status bar\"",
+      "time" : {
+        "start" : 1592184788020,
+        "stop" : 1592184788045,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I fill the input \"username input\" with text \"username\"",
+      "time" : {
+        "start" : 1592184788045,
+        "stop" : 1592184788171,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I fill the input \"password input\" with text \"password\"",
+      "time" : {
+        "start" : 1592184788171,
+        "stop" : 1592184788255,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the input \"username input\" has the text \"username\"",
+      "time" : {
+        "start" : 1592184788255,
+        "stop" : 1592184788267,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the input \"password input\" has the text \"password\"",
+      "time" : {
+        "start" : 1592184788267,
+        "stop" : 1592184788278,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I press enter",
+      "time" : {
+        "start" : 1592184788278,
+        "stop" : 1592184788944,
+        "duration" : 666
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see the element \"error status bar\"",
+      "time" : {
+        "start" : 1592184788944,
+        "stop" : 1592184788957,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Login page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login page interactions"
+  }, {
+    "name" : "package",
+    "value" : "Login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "82432d7410617e18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592129016300,
+        "stop" : 1592129021123,
+        "duration" : 4823
+      }
+    }, {
+      "uid" : "5e758b0ceba5c3ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128706244,
+        "stop" : 1592128711259,
+        "duration" : 5015
+      }
+    }, {
+      "uid" : "a55fa5cfc8d581bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128694520,
+        "stop" : 1592128701000,
+        "duration" : 6480
+      }
+    }, {
+      "uid" : "3399a3bb86d6e7f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128636546,
+        "stop" : 1592128644492,
+        "duration" : 7946
+      }
+    }, {
+      "uid" : "4daecdad0482b468",
+      "status" : "broken",
+      "statusDetails" : "element (\"//div[@id=\"flash\"]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1592128490421,
+        "stop" : 1592128500282,
+        "duration" : 9861
+      }
+    }, {
+      "uid" : "97e49030a855fd0",
+      "status" : "broken",
+      "statusDetails" : "element (\"//div[@id=\"flash\"]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1592128223831,
+        "stop" : 1592128233490,
+        "duration" : 9659
+      }
+    }, {
+      "uid" : "57a5885bdf9510fb",
+      "status" : "broken",
+      "statusDetails" : "element (\"//div[@id=\"flash\"]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1592127169418,
+        "stop" : 1592127178431,
+        "duration" : 9013
+      }
+    }, {
+      "uid" : "7456cfeaacf0b42a",
+      "status" : "broken",
+      "statusDetails" : "element (\"//div[@id=\"flash\"]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1592125283678,
+        "stop" : 1592125292480,
+        "duration" : 8802
+      }
+    }, {
+      "uid" : "8db5ffeb8cd3e5a6",
+      "status" : "broken",
+      "statusDetails" : "element (\"//div[@id=\"flash\"]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1592125082956,
+        "stop" : 1592125092369,
+        "duration" : 9413
+      }
+    }, {
+      "uid" : "2362bc3a279b3753",
+      "status" : "broken",
+      "statusDetails" : "element (\"//div[@id=\"flash\"]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1592124099819,
+        "stop" : 1592124111571,
+        "duration" : 11752
+      }
+    }, {
+      "uid" : "82005264f7a9f12f",
+      "status" : "broken",
+      "statusDetails" : "Step \"Then I capture requests\" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1592123585529,
+        "stop" : 1592123592023,
+        "duration" : 6494
+      }
+    }, {
+      "uid" : "fb149009c463d582",
+      "status" : "broken",
+      "statusDetails" : "Step \"Then I capture requests\" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1592108028463,
+        "stop" : 1592108033206,
+        "duration" : 4743
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7e731fc72edf153.json",
+  "parameterValues" : [ "chrome" ]
+}

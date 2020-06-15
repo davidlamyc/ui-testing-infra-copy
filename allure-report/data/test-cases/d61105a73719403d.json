@@ -1,0 +1,176 @@
+{
+  "uid" : "d61105a73719403d",
+  "name" : "Login page interactions",
+  "fullName" : "Home page.Login page interactions",
+  "historyId" : "a7a2d6e4e26e77e4ee48d3dd89407215",
+  "time" : {
+    "start" : 1592107293036,
+    "stop" : 1592107302306,
+    "duration" : 9270
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "[\n                  {\n                    \"kind\": \"E\",\n                    \"path\": [\n                      \"motorYear\"\n                    ],\n                    \"lhs\": 2018,\n                    \"rhs\": 2017\n                  }\n                ]",
+  "statusTrace" : "Error: [\n                  {\n                    \"kind\": \"E\",\n                    \"path\": [\n                      \"motorYear\"\n                    ],\n                    \"lhs\": 2018,\n                    \"rhs\": 2017\n                  }\n                ]\n                    at filter (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/utils/httpRequest.js:43:19)\n                    at Array.filter (<anonymous>)\n                    at Function.compareAjaxRequests (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/utils/httpRequest.js:36:29)\n                    at World._default (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/interaction/compareRequest.js:13:41)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "[\n                  {\n                    \"kind\": \"E\",\n                    \"path\": [\n                      \"motorYear\"\n                    ],\n                    \"lhs\": 2018,\n                    \"rhs\": 2017\n                  }\n                ]",
+    "statusTrace" : "Error: [\n                  {\n                    \"kind\": \"E\",\n                    \"path\": [\n                      \"motorYear\"\n                    ],\n                    \"lhs\": 2018,\n                    \"rhs\": 2017\n                  }\n                ]\n                    at filter (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/utils/httpRequest.js:43:19)\n                    at Array.filter (<anonymous>)\n                    at Function.compareAjaxRequests (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/utils/httpRequest.js:36:29)\n                    at World._default (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/interaction/compareRequest.js:13:41)",
+    "steps" : [ {
+      "name" : "Given I have a screen that is 1600 by 1200 pixels",
+      "time" : {
+        "start" : 1592107293039,
+        "stop" : 1592107293152,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given I open the url \"/car-insurance\"",
+      "time" : {
+        "start" : 1592107293152,
+        "stop" : 1592107296170,
+        "duration" : 3018
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"axa\" page",
+      "time" : {
+        "start" : 1592107296171,
+        "stop" : 1592107296176,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I pause for 3000ms",
+      "time" : {
+        "start" : 1592107296176,
+        "stop" : 1592107299182,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I capture requests",
+      "time" : {
+        "start" : 1592107299182,
+        "stop" : 1592107299198,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I click on the element \"get a quote button\"",
+      "time" : {
+        "start" : 1592107299199,
+        "stop" : 1592107299278,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I expect request with \"POST\" method and url \"/axaweb/api/get-quote-price/Motor\" to be in \"post-axaweb-api-get-quote-price-Motor\"",
+      "time" : {
+        "start" : 1592107299279,
+        "stop" : 1592107302306,
+        "duration" : 3027
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: [\n                  {\n                    \"kind\": \"E\",\n                    \"path\": [\n                      \"motorYear\"\n                    ],\n                    \"lhs\": 2018,\n                    \"rhs\": 2017\n                  }\n                ]\n                    at filter (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/utils/httpRequest.js:43:19)\n                    at Array.filter (<anonymous>)\n                    at Function.compareAjaxRequests (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/utils/httpRequest.js:36:29)\n                    at World._default (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/interaction/compareRequest.js:13:41)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home page"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login page interactions"
+  }, {
+    "name" : "package",
+    "value" : "Home page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d61105a73719403d.json",
+  "parameterValues" : [ "chrome" ]
+}

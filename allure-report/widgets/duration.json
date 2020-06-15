@@ -1,11 +1,111 @@
 [ {
-  "uid" : "f2042c460d4c7427",
+  "uid" : "99ac73465ac1af2c",
   "name" : "Login page interactions",
   "time" : {
-    "start" : 1592106612683,
-    "stop" : 1592106621885,
-    "duration" : 9202
+    "start" : 1592129092700,
+    "stop" : 1592129101065,
+    "duration" : 8365
   },
-  "status" : "broken",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c87effba216a8cab",
+  "name" : "Page title has correct copy",
+  "time" : {
+    "start" : 1592184761414,
+    "stop" : 1592184765952,
+    "duration" : 4538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81e5489a6569be69",
+  "name" : "Checkboxes are correctly selected after clicking on them",
+  "time" : {
+    "start" : 1592184745674,
+    "stop" : 1592184746197,
+    "duration" : 523
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f92aa6567cee99b",
+  "name" : "Alert interactions",
+  "time" : {
+    "start" : 1592184770687,
+    "stop" : 1592184776515,
+    "duration" : 5828
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7e731fc72edf153",
+  "name" : "Login page interactions",
+  "time" : {
+    "start" : 1592184780885,
+    "stop" : 1592184788958,
+    "duration" : 8073
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "819baf890a68d213",
+  "name" : "Dropdown option is correctly selected",
+  "time" : {
+    "start" : 1592184756647,
+    "stop" : 1592184757041,
+    "duration" : 394
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "931c658ac1affe8d",
+  "name" : "Dropdown options are correctly enabled or disabled",
+  "time" : {
+    "start" : 1592184750563,
+    "stop" : 1592184756646,
+    "duration" : 6083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a4a353d9cfa9a70",
+  "name" : "Checkboxes are correctly selected",
+  "time" : {
+    "start" : 1592184741123,
+    "stop" : 1592184745673,
+    "duration" : 4550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df2a24598e9f5ed7",
+  "name" : "Scroll to correct element",
+  "time" : {
+    "start" : 1592184765952,
+    "stop" : 1592184766336,
+    "duration" : 384
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b57282b229db309",
+  "name" : "Add and remove buttons",
+  "time" : {
+    "start" : 1592184732678,
+    "stop" : 1592184736732,
+    "duration" : 4054
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15410a87355c91b4",
+  "name" : "Check element properties",
+  "time" : {
+    "start" : 1592184724664,
+    "stop" : 1592184728225,
+    "duration" : 3561
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

@@ -1,0 +1,206 @@
+{
+  "uid" : "97e49030a855fd0",
+  "name" : "Login page interactions",
+  "fullName" : "Login page.Login page interactions",
+  "historyId" : "cab8313ce78e7186720ff3efaff74fc2",
+  "time" : {
+    "start" : 1592128223831,
+    "stop" : 1592128233490,
+    "duration" : 9659
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//div[@id=\"flash\"]\") still not displayed after 5000ms",
+  "statusTrace" : "Error: element (\"//div[@id=\"flash\"]\") still not displayed after 5000ms\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at World._default (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/assertion/checkElementVisibility.js:9:34)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//div[@id=\"flash\"]\") still not displayed after 5000ms",
+    "statusTrace" : "Error: element (\"//div[@id=\"flash\"]\") still not displayed after 5000ms\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at World._default (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/assertion/checkElementVisibility.js:9:34)",
+    "steps" : [ {
+      "name" : "Given I open the url \"/login\"",
+      "time" : {
+        "start" : 1592128223834,
+        "stop" : 1592128228454,
+        "duration" : 4620
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"login\" page",
+      "time" : {
+        "start" : 1592128228454,
+        "stop" : 1592128228460,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I do not see the element \"error status bar\"",
+      "time" : {
+        "start" : 1592128228460,
+        "stop" : 1592128233490,
+        "duration" : 5030
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//div[@id=\"flash\"]\") still not displayed after 5000ms\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at World._default (/Users/david/workspace/ui-testing-infra-copy/build/step_definitions/support/assertion/checkElementVisibility.js:9:34)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then I fill the input \"username input\" with text \"username\"",
+      "time" : {
+        "start" : 1592128233491,
+        "stop" : 1592128233491,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I fill the input \"password input\" with text \"password\"",
+      "time" : {
+        "start" : 1592128233491,
+        "stop" : 1592128233492,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the input \"username input\" has the text \"username\"",
+      "time" : {
+        "start" : 1592128233496,
+        "stop" : 1592128233496,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the input \"password input\" has the text \"password\"",
+      "time" : {
+        "start" : 1592128233496,
+        "stop" : 1592128233496,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I press enter",
+      "time" : {
+        "start" : 1592128233497,
+        "stop" : 1592128233497,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see the element \"error status bar\"",
+      "time" : {
+        "start" : 1592128233497,
+        "stop" : 1592128233497,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Login page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login page interactions"
+  }, {
+    "name" : "package",
+    "value" : "Login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "97e49030a855fd0.json",
+  "parameterValues" : [ "chrome" ]
+}

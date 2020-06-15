@@ -1,0 +1,230 @@
+{
+  "uid" : "9b57282b229db309",
+  "name" : "Add and remove buttons",
+  "fullName" : "Add remove buttons page.Add and remove buttons",
+  "historyId" : "ca1733c0384b0a2c983bfcd8c4373c24",
+  "time" : {
+    "start" : 1592184732678,
+    "stop" : 1592184736732,
+    "duration" : 4054
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open the url \"/add_remove_elements/\"",
+      "time" : {
+        "start" : 1592184732681,
+        "stop" : 1592184736548,
+        "duration" : 3867
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"add_remove_elements\" page",
+      "time" : {
+        "start" : 1592184736548,
+        "stop" : 1592184736555,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I click on the element \"add element button\"",
+      "time" : {
+        "start" : 1592184736555,
+        "stop" : 1592184736629,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I click on the element \"add element button\"",
+      "time" : {
+        "start" : 1592184736629,
+        "stop" : 1592184736667,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I click on the element \"add element button\"",
+      "time" : {
+        "start" : 1592184736667,
+        "stop" : 1592184736718,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the element \"manually added buttons\" appears exactly 3 times",
+      "time" : {
+        "start" : 1592184736718,
+        "stop" : 1592184736731,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Add remove buttons page"
+  }, {
+    "name" : "testClass",
+    "value" : "Add remove buttons page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add and remove buttons"
+  }, {
+    "name" : "package",
+    "value" : "Add remove buttons page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4d6442e85def6598",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184314281,
+        "stop" : 1592184318055,
+        "duration" : 3774
+      }
+    }, {
+      "uid" : "4d61e6f332ab9f7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128972728,
+        "stop" : 1592128976250,
+        "duration" : 3522
+      }
+    }, {
+      "uid" : "d9725a6e36938669",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128176508,
+        "stop" : 1592128180217,
+        "duration" : 3709
+      }
+    }, {
+      "uid" : "4fcfeeec353e5b3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127122967,
+        "stop" : 1592127127812,
+        "duration" : 4845
+      }
+    }, {
+      "uid" : "1c90d88593e9f20a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125223858,
+        "stop" : 1592125227423,
+        "duration" : 3565
+      }
+    }, {
+      "uid" : "6bc6ed0f5d8d79b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125018710,
+        "stop" : 1592125026688,
+        "duration" : 7978
+      }
+    }, {
+      "uid" : "18bcf1e07f4b76ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592124000432,
+        "stop" : 1592124023845,
+        "duration" : 23413
+      }
+    }, {
+      "uid" : "4d85395c7699d16e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123518585,
+        "stop" : 1592123522761,
+        "duration" : 4176
+      }
+    }, {
+      "uid" : "27d4ec087f7643f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592107947493,
+        "stop" : 1592107951235,
+        "duration" : 3742
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b57282b229db309.json",
+  "parameterValues" : [ "chrome" ]
+}

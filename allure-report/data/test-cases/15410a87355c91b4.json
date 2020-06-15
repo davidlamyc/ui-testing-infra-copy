@@ -1,0 +1,358 @@
+{
+  "uid" : "15410a87355c91b4",
+  "name" : "Check element properties",
+  "fullName" : "Challenging DOM page.Check element properties",
+  "historyId" : "e592178d435760aa8da17e3341359c72",
+  "time" : {
+    "start" : 1592184724664,
+    "stop" : 1592184728225,
+    "duration" : 3561
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open the url \"/abtest\"",
+      "time" : {
+        "start" : 1592184724666,
+        "stop" : 1592184727985,
+        "duration" : 3319
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I land on the \"abtest\" page",
+      "time" : {
+        "start" : 1592184727985,
+        "stop" : 1592184727991,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given I have a screen that is 300 by 300 pixels",
+      "time" : {
+        "start" : 1592184727991,
+        "stop" : 1592184728103,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the attribute \"id\" from element \"content div\" is \"content\"",
+      "time" : {
+        "start" : 1592184728103,
+        "stop" : 1592184728149,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the attribute \"id\" from element \"content div\" is not \"fake text\"",
+      "time" : {
+        "start" : 1592184728149,
+        "stop" : 1592184728171,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the css attribute \"color\" from element \"content div\" is \"rgba(34,34,34,1)\"",
+      "time" : {
+        "start" : 1592184728171,
+        "stop" : 1592184728197,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I check that the css attribute \"color\" from element \"content div\" is not \"fake text\"",
+      "time" : {
+        "start" : 1592184728197,
+        "stop" : 1592184728224,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Challenging DOM page"
+  }, {
+    "name" : "testClass",
+    "value" : "Challenging DOM page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check element properties"
+  }, {
+    "name" : "package",
+    "value" : "Challenging DOM page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "744f9aec077210b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184373600,
+        "stop" : 1592184377304,
+        "duration" : 3704
+      }
+    }, {
+      "uid" : "834cb105b15dbc60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592184304066,
+        "stop" : 1592184309835,
+        "duration" : 5769
+      }
+    }, {
+      "uid" : "d2d2f3054c5ea1bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128963587,
+        "stop" : 1592128967752,
+        "duration" : 4165
+      }
+    }, {
+      "uid" : "d8fd0bbd0e6bdbb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128166101,
+        "stop" : 1592128171557,
+        "duration" : 5456
+      }
+    }, {
+      "uid" : "b922220aa07b1692",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128153335,
+        "stop" : 1592128158157,
+        "duration" : 4822
+      }
+    }, {
+      "uid" : "2360c162bd0b004",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592128104585,
+        "stop" : 1592128108176,
+        "duration" : 3591
+      }
+    }, {
+      "uid" : "a3bf4ec4392445f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127817656,
+        "stop" : 1592127822117,
+        "duration" : 4461
+      }
+    }, {
+      "uid" : "5c1ad6070fbb06c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127112512,
+        "stop" : 1592127117978,
+        "duration" : 5466
+      }
+    }, {
+      "uid" : "64fe2ad27ad8a5cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592127098971,
+        "stop" : 1592127102807,
+        "duration" : 3836
+      }
+    }, {
+      "uid" : "b362c5b4b19b755d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592126952140,
+        "stop" : 1592126956450,
+        "duration" : 4310
+      }
+    }, {
+      "uid" : "943b63a237918530",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592126835426,
+        "stop" : 1592126841623,
+        "duration" : 6197
+      }
+    }, {
+      "uid" : "4f59877911241a66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592126814286,
+        "stop" : 1592126817733,
+        "duration" : 3447
+      }
+    }, {
+      "uid" : "d681b3b4141214c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592126721526,
+        "stop" : 1592126725519,
+        "duration" : 3993
+      }
+    }, {
+      "uid" : "73e6485fabdf891a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125407265,
+        "stop" : 1592125411026,
+        "duration" : 3761
+      }
+    }, {
+      "uid" : "f761267e56b6f5d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125213995,
+        "stop" : 1592125218770,
+        "duration" : 4775
+      }
+    }, {
+      "uid" : "66732650835df4fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592125004588,
+        "stop" : 1592125013634,
+        "duration" : 9046
+      }
+    }, {
+      "uid" : "cac8ce849ca4347c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123989854,
+        "stop" : 1592123995489,
+        "duration" : 5635
+      }
+    }, {
+      "uid" : "5481d9b3d2e410b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123508668,
+        "stop" : 1592123513693,
+        "duration" : 5025
+      }
+    }, {
+      "uid" : "920fe95d8f1171e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123394455,
+        "stop" : 1592123398670,
+        "duration" : 4215
+      }
+    }, {
+      "uid" : "1351c567c6febac8",
+      "status" : "broken",
+      "statusDetails" : "element (\"//div[@id=\"content\"]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1592123374252,
+        "stop" : 1592123379604,
+        "duration" : 5352
+      }
+    }, {
+      "uid" : "89d35c58b34acfe9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592121412770,
+        "stop" : 1592121417586,
+        "duration" : 4816
+      }
+    }, {
+      "uid" : "87bca7d1ff3aaa5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592121247622,
+        "stop" : 1592121251130,
+        "duration" : 3508
+      }
+    }, {
+      "uid" : "726e242052ab0bb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592107937144,
+        "stop" : 1592107942549,
+        "duration" : 5405
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15410a87355c91b4.json",
+  "parameterValues" : [ "chrome" ]
+}
